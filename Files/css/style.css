@@ -1,0 +1,100 @@
+/* /* font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Fuggles', cursive; */
+
+/* #E93B81 Pink Color */
+/* #646464 Dark Gray*/
+
+/* .site {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+
+/* .header {
+    width: 100vh;
+    height: 100vh;
+} */
+.site{
+    /* position: relative; */
+}
+
+.homepage {
+    width: 100vh;
+    height: 100vh;
+}
+
+/* .mainheading {
+    color: #E93B81;
+    font-family: 'Fuggles', cursive;
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 0%;
+} */
+/* 
+.name {
+    color: #646464;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.7rem;
+    font-style: italic;
+    margin: 0%;
+} */
+
+/* .maintext {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 18%;
+    /* margin-bottom: 10%; 
+} */
+
+/* .logo-vb97 {
+    color: #646464;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+} */
+
+/* .logo-vb97 span {
+    color: #E93B81;
+} */
+
+/* .navbar-brand {
+    margin-left: 10%;
+} */
+
+/* .navbar {
+    position: relative;
+    margin-left: 15%;
+} */
+
+/* .navbar-nav{
+    position: relative;
+    margin-right: 15%;
+} */
+
+/* .navbar-expand-lg .navbar-nav .nav-link{
+    color: rgb(173 48 48);
+    padding-right: 2rem;
+    font-size: 1.2rem;
+} */
+
+/* .hero-bg {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: -22%;
+    z-index: -1;
+} */
+
+/* .hero-man{
+    position: absolute;
+    width: 30%;
+    margin-left: 30%;
+    /* margin-bottom: 50%; 
+    margin-top: 31%;
+} */
