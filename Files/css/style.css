@@ -191,13 +191,59 @@ p {
 /************ Skills Section **************/
 
 
+/************ Projects Section **************/
+
+.projects {
+    margin: 95px auto 195px;
+}
+
+.card-own {
+    height: 416px;
+    width: 350px;
+    background-color: rgb(75, 175, 200);
+    border-radius: 70px;
+    text-align: center;
+    padding: auto;
+    margin-top: 50px;
+
+    /* padding: 50%; */
+}
+
+/* .prj-icon{
+} */
+
+.prj-icon img{
+    margin: 40px auto;
+    height: 200px;
+    mix-blend-mode: soft-light;
+
+}
+
+h3, h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    font-weight: 600;
+}
+
+.prj-name{
+    margin:15px auto 30px;
+}
 
 
+.card1 {
+    background-image: linear-gradient(to left bottom, #ffb090, #ff9f94,
+     #ff8ea4, #ff80bc, #ff79db);
+}
 
+.card2 {
+    background-image: linear-gradient(to left bottom, #90ffa5, #00f0d7,
+     #00d9ff, #00b9ff, #818fff);
+}
 
-
-
-
+.card3{
+    background-image: linear-gradient(to left bottom, #8edbff, #80c6ff,
+     #a1a9ff, #d580f2, #ff46b8);
+}
 
 
 
