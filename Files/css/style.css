@@ -260,6 +260,16 @@ h3, h5 {
 .card1 {
     background-image: linear-gradient(to left bottom, #ffb090, #ff9f94,
      #ff8ea4, #ff80bc, #ff79db);
+
+    transition: 0.5s ease-in-out;
+
+    /* transition: transform 250ms linear; */
+     /* transition-delay: 2s; */
+}
+
+.card1:hover{
+    background-image: linear-gradient(to left bottom, #ff79db,
+     #ff80bc, #ff8ea4, #ff9f94, #ffb090);
 }
 
 .card2 {
@@ -267,11 +277,20 @@ h3, h5 {
      #00d9ff, #00b9ff, #818fff);
 }
 
+.card2:hover{
+    background-image: linear-gradient(to left bottom, #818fff,
+     #00b9ff, #00d9ff, #00f0d7, #90ffa5);
+}
+
 .card3{
     background-image: linear-gradient(to left bottom, #8edbff, #80c6ff,
      #a1a9ff, #d580f2, #ff46b8);
 }
 
+.card3:hover{
+    background-image: linear-gradient(to left bottom, #ff46b8,
+     #d580f2, #a1a9ff, #80c6ff, #8edbff);
+}
 
 
 
