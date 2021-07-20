@@ -179,13 +179,15 @@ p {
     text-align:start;
 }
 
-.col-5 img {
+.col-2 img {
     position: absolute;
     border-radius: 50%;
     height: 300px;
     width: 300px;
+    margin-left: 100px;
     /* margin-top: 10px; */
-    margin-left: 200px;
+    /* margin-left: 880px;
+    margin-bottom: 400px; */
 }
 
 /************ Skills Section **************/
@@ -222,7 +224,18 @@ p {
     margin: 115px auto 195px;
 }
 
+.projects .cd-rows{
+    margin-top: 80px;
+}
+
+.projects .container .col .card-own{
+    text-align: center;
+    margin: 0 auto;
+}
+
 .card-own {
+    max-height: 416px;
+    max-width: 350px;
     height: 416px;
     width: 350px;
     background-color: rgb(75, 175, 200);
@@ -293,6 +306,168 @@ h3, h5 {
 }
 
 
+/************ Contact-Me Section **************/
+
+.contact-me {
+    margin: 115px auto 105px;
+}
+
+.contact-form {
+    max-width: 800px;
+    max-height: 800px;
+    height: 750px;
+    width: 900px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    margin: 60px auto;
+    /* margin-top: 15px; */
+    border-radius: 30px;
+}
+
+.form-row{
+    margin-top: 15px;
+    padding: 20px;
+}
+.form-row .form-row-mar{
+    margin-top: 10px;
+}
+
+.form-row img{
+    height: 60px;
+    margin-bottom: 13px;
+    margin-top: 0;
+}
+
+.form-row .row .title{
+    text-align: left;
+}
+
+.col-7{
+    text-align: left;
+    margin:auto 0;
+    margin-left: 25px;
+}
+
+.col-7 h5{
+    font-family: 'Roboto', sans-serif;
+    color: #424242;
+    font-weight: 600;
+    opacity: 0.9;
+    font-size: 25px;
+    mix-blend-mode:hard-light;
+}
+
+
+.last-btn {
+    margin-top: 28px;
+    margin-left: 15px;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+.form-group .last{
+    margin-top: 40px;
+}
+
+.form-group label{
+    /* text-align: left; */
+    /* margin-right: 100%; */
+    font-family: 'Nunito', sans-serif;
+    color: rgb(122, 122, 122);
+}
+
+form .row{
+    margin: 15px 0;
+}
+
+
+/************ Footer Section **************/
+
+footer {
+    background-color: #F7F7F7;
+    height: 470px;
+    text-align: center;
+}
+
+/* footer .container{
+    height: 240px;
+} */
+
+footer .container .footer01{
+    height: 310px;
+}
+
+footer .mb-5 {
+    margin-bottom: 1.5rem;
+}
+
+footer img {
+    height: 40px;
+    margin: 30px 50px 40px;
+    opacity: 0.4;
+}
+
+footer img:hover{
+    opacity: 0.7;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer .footer-copyright {
+    background-color: #555555;
+    height: 60px;
+    padding-bottom: 30px;
+}
+
+footer .footer-copyright h5{
+    color: #C7C7C7;
+}
+
+footer .footer-mid{
+    background-color: #C7C7C7;
+    height: 100px;
+    padding-top: 20px;
+}
+
+footer .footer-mid h5 {
+    color: #555555;
+}
+
+footer .footer-mid h3 {
+    color: #555555;
+}
+
+/* .footer-sec{
+    background-color: #F7F7F7;
+    max-height: 500px;
+    height: 500px;
+    text-align: center;
+    /* margin:0 auto; 
+} */
+
+
+
+/* .footer1{
+    margin-top: 60px;
+} */
+
+
+
+/* .footer2{
+    height: 70px;
+    background-color: #C7C7C7;
+}
+
+.footer3{
+    background-color: #C7C7C7;
+    /* text-align: center; 
+
+    height: 40px;
+} */
 
 /* .mainheading {
     color: #E93B81;
