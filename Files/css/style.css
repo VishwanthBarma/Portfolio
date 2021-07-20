@@ -190,11 +190,36 @@ p {
 
 /************ Skills Section **************/
 
+.skills {
+    margin: 120px auto;
+    margin-bottom: 160px;
+}
+
+.skills .container img {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.progress-bar {
+    background-image: linear-gradient(to left, #62f1fe,
+     #39dcff, #82beff, #d095fe, #ff65b8);
+    border-radius: 5%;
+}
+
+.skill {
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+
+
+
 
 /************ Projects Section **************/
 
 .projects {
-    margin: 95px auto 195px;
+    margin: 115px auto 195px;
 }
 
 .card-own {
@@ -221,8 +246,10 @@ p {
 
 h3, h5 {
     font-family: 'Roboto', sans-serif;
-    color: #444444;
+    color: #4e4e4e;
     font-weight: 600;
+    opacity: 0.9;
+    mix-blend-mode:hard-light;
 }
 
 .prj-name{
